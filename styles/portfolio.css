@@ -21,6 +21,7 @@ body{
     padding: 15px 35px;
 }
 .section-title {
+    text-align: center;
     color: #181818;
     font-size: 35px;
     font-weight: 700;
@@ -28,6 +29,7 @@ body{
     margin-bottom: 30px;
 }
 .section-desc {
+    text-align: center;
     color: #757575;
     font-size: 18px;
     font-weight: 400;
@@ -67,8 +69,7 @@ nav a{
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.header > section,
-main > section {
+.header > section, main {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
@@ -156,4 +157,43 @@ section.nevigation {
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
+}
+/*What I do*/
+.whatido {
+    margin-bottom: 130px;
+}
+.whatido .section-desc {
+    padding: 0 115px;
+    margin-bottom: 50px;
+}
+.skills-container {
+    display: flex;
+}
+.skill {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-right: 25px;
+}
+.skill:last-child {
+    margin-right: 0;
+}
+.skill>img {
+    margin-bottom: 30px;
+}
+
+.skill>h3 {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.skill>p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
 }
