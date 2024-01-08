@@ -69,7 +69,7 @@ nav a{
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.header > section, main {
+.header > section, main, .footer-container {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
@@ -247,4 +247,56 @@ section.nevigation {
 
 .download-cv {
     text-align: center;
+}
+/*Footer Section*/
+footer{
+    background: #FFF8F3;
+    padding: 130px 0;
+}
+.footer-container{
+    display: flex;
+}
+.footer-column{
+    width: 60%;
+}
+.footer-column.form{
+    width: 40%;
+}
+footer .section-title {
+    text-align: left;
+}
+footer .section-desc {
+    text-align: left;
+    margin-bottom: 30px;
+    padding-right: 65px;
+}
+footer .section-desc {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.social-links a:last-child {
+    margin-right: 0;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+    border: none;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+input[type="submit"] {
+    margin-bottom: 0;
+    width: initial;
 }
